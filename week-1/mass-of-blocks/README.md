@@ -5,7 +5,7 @@
 This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
  
 There is a base of regions represented by a vector of Region structures:
-'''c++
+'''cpp
 struct Region {
   string std_name;
   string parent_std_name;
@@ -14,7 +14,7 @@ struct Region {
 };
 '''
 Here Lang is the language identifier:
-'''c++
+'''cpp
 enum class Lang {
   DE, FR, IT
 };
