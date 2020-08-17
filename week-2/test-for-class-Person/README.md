@@ -1,7 +1,7 @@
 # Tasks from week 2 of course
 
 ## C++ Yellow belt
-This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
+This repository contains my solutions to tasks from week 2 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
 ### Tests for class Person
 
 In the first course "White Belt on C ++" we had the task "Names and surnames - 1" [https://www.coursera.org/learn/c-plus-plus-white/programming/4FQn4/imiena-i-familii-1]. In it, it was necessary to develop a Person class that maintains the history of changes by a person to his last name and first name. In this task, you need to develop unit tests for implementing the Person class. When designing your tests, consider the limitations of the First and Last Name - 1 task condition on the Person class.
