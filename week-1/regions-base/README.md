@@ -5,14 +5,95 @@
 This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
 
 ### Regions base
+We have regions base presented by vector of Region structures:
+```cpp
+{
+    struct Region {
+    string std_name;
+    string parent_std_name;
+    map<Lang, string> names;
+    int64_t population;
+};
+}
+```
+There lang - language identificator:
+```cpp
+{
+    enum class Lang {
+    DE, FR, IT
+};
+}
+```
+Write a FindMaxRepetitionCount function that takes a region base and determines the maximum number of repetitions (the number of occurrences of the same element) it contains. Two records (objects of type Region) are considered different if they differ in at least one field.
+```cpp
+{
+    int FindMaxRepetitionCount(const vector<Region>& regions);
+}
+```
+If all records are unique, consider the maximum number of repetitions to be 1. If there are no records, return 0. It is guaranteed that int is sufficient to hold the response.
+### Code example
+```cpp
+{
+    int main() {
+      cout << FindMaxRepetitionCount({
+          {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Russia",
+              "Eurasia",
+              {{Lang::DE, "Russland"}, {Lang::FR, "Russie"}, {Lang::IT, "Russia"}},
+              89
+          }, {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Russia",
+              "Eurasia",
+              {{Lang::DE, "Russland"}, {Lang::FR, "Russie"}, {Lang::IT, "Russia"}},
+              89
+          },
+      }) << endl;
 
-Consider that block sizes are measured in centimeters, density in grams per cubic centimeter, and total weight in grams. Thus, the mass of the block can be calculated as a simple product of density and volume.
-Input format
+      cout << FindMaxRepetitionCount({
+          {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Russia",
+              "Eurasia",
+              {{Lang::DE, "Russland"}, {Lang::FR, "Russie"}, {Lang::IT, "Russia"}},
+              89
+          }, {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou deux"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Moscow",
+              "Toulouse",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              89
+          }, {
+              "Moscow",
+              "Russia",
+              {{Lang::DE, "Moskau"}, {Lang::FR, "Moscou"}, {Lang::IT, "Mosca"}},
+              31
+          },
+      }) << endl;
 
-The first line contains two positive integers: the number of blocks N and the density of each block R. Each of the next N lines contains three positive integers W, H, D - the sizes of the next block.
-
-It is guaranteed that:
-
-+ the number of blocks N does not exceed 10 ^ 5;
-+ block density R does not exceed 100;
-+ the sizes of blocks W, H, D do not exceed 10 ^ 4.
+      return 0;
+    }
+}
+```
