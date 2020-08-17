@@ -4,8 +4,7 @@
 
 This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
 
-### Calculate the total mass of rectangular parallelepiped-shaped blocks of the same density but different sizes.
-Note
+### Regions base
 
 Consider that block sizes are measured in centimeters, density in grams per cubic centimeter, and total weight in grams. Thus, the mass of the block can be calculated as a simple product of density and volume.
 Input format
@@ -16,4 +15,4 @@ It is guaranteed that:
 
 + the number of blocks N does not exceed 10 ^ 5;
 + block density R does not exceed 100;
-+ the sizes of blocks W, H, D do not exceed 10 ^ 4. 
++ the sizes of blocks W, H, D do not exceed 10 ^ 4.

@@ -3,7 +3,8 @@
 ## C++ Yellow belt
 
 This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-Foreword
+
+### Matrixes summation
 
 If you are not sure whether you should first take our first course, or if you have enough knowledge to start with the Yellow Belt, try to solve this problem. If you do not understand its condition or cannot quickly decide, most likely, you must first go through the "White Belt"
 Condition
@@ -32,4 +33,4 @@ You are given a draft solution, as well as an example of input and output. When 
 
 Important! The example does not verify that all the requirements specified in the condition are met.
 
-Problem Author - Dmitry Minchenko 
+Problem Author - Dmitry Minchenko
