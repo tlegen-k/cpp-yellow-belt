@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 12, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <map>
 #include <set>
@@ -257,6 +250,3 @@ int main() {
 	runner.RunTest(TestConstant, "TestConstant");
   return 0;
 }
-
-
-

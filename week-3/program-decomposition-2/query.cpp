@@ -1,11 +1,3 @@
-/*
- * query.cpp
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-//#pragma once
-
 #include "query.h"
 
 using namespace std;
@@ -42,5 +34,3 @@ istream& operator >> (istream& is, Query& q) {
 	} */
   return (is);
 }
-
-

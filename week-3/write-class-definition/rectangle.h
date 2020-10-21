@@ -1,10 +1,3 @@
-/*
- * rectangle.h
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef RECTANGLE_H_
 #define RECTANGLE_H_
 #pragma once

@@ -1,11 +1,3 @@
-/*
- * responses.cpp
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
-
 #include "responses.h"
 
 //output operator to print all buses for specified stop
@@ -62,4 +54,3 @@ ostream& operator << (ostream& os, const AllBusesResponse& r) {
 	}
   return (os);
 }
-

@@ -1,11 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Mar 9, 2020
- *      Author: tlegenkamidollayev
- */
-
-
 #include <iostream>
 #include <vector>
 

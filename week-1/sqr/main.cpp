@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Mar 31, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <vector>
 #include <map>
@@ -70,4 +63,3 @@ int main() {
 	}
 	return 0;
 }
-

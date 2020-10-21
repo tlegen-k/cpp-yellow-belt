@@ -1,21 +1,8 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 3, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iostream>
 
 #include "query.h"
 #include "bus_manager.h"
 using namespace std;
-
-
-
-
-
-
-// Не меняя тела функции main, реализуйте функции и классы выше
 
 int main() {
   int query_count;

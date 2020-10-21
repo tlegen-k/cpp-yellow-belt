@@ -1,10 +1,3 @@
-/*
- * responses.h
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef RESPONSES_H_
 #define RESPONSES_H_
 #pragma once

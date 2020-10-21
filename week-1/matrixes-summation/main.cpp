@@ -1,12 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Feb 24, 2020
- *      Author: tlegenkamidollayev
- */
-
-
-
 #include <iostream>
 #include <fstream>
 #include <stdexcept>
@@ -14,12 +5,6 @@
 
 using namespace std;
 
-// Реализуйте здесь
-// * класс Matrix
-// * оператор ввода для класса Matrix из потока istream
-// * оператор вывода класса Matrix в поток ostream
-// * оператор проверки на равенство двух объектов класса Matrix
-// * оператор сложения двух объектов класса Matrix
 class Matrix {
 public:
 	Matrix() {

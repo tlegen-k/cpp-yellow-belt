@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 1, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iostream>
 #include <exception>
 #include <map>
@@ -22,9 +16,6 @@ V& GetRefStrict(map<K, V>& m, K key) {
 		throw runtime_error("runtime error");
 	}
 	else {
-		//auto res = m.find(key);
-		//static K& s = res->second;
-		//return (s);
 		return (m[key]);
 	}
 }
@@ -33,7 +24,7 @@ int main() {
 	map<int, string> m = {{0, "value"}};
 	string& item = GetRefStrict(m, 0);
 	item = "newvalue";
-	cout << m[0] << endl; // выведет newvalue
+	cout << m[0] << endl; // cout newvalue
 
 	return 0;
 }

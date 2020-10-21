@@ -1,10 +1,3 @@
-/*
- * sum_reverse_sort.h
- *
- *  Created on: Apr 14, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef SUM_REVERSE_SORT_H_
 #define SUM_REVERSE_SORT_H_
 

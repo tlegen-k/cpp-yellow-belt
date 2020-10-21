@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Mar 10, 2020
- *      Author: tlegenkamidollayev
- */
 #include <vector> // std::vector
 #include <string> // std::string
 #include <map> // std::map
@@ -21,23 +15,13 @@ struct Region {
   map<Lang, string> names;
   int64_t population;
 };
-//overloading comparison operator for *max_element method of vector
-bool operator<(const Region& lhs, const Region& rhs) {
-/*	if (lhs.std_name != rhs.std_name) {
-		return lhs.std_name < rhs.std_name;
-	}
-	if (lhs.parent_std_name != rhs.parent_std_name) {
-		return lhs.parent_std_name < rhs.parent_std_name;
-	}
-	if (lhs.names != rhs.names) {
-		return lhs.names < rhs.names;
-	}
-	return lhs.population < rhs.population; */
 
+//- Overloading comparison operator for *max_element method of vector
+bool operator<(const Region& lhs, const Region& rhs) {
 	  return tie(lhs.std_name, lhs.parent_std_name, lhs.names, lhs.population) <
 	      tie(rhs.std_name, rhs.parent_std_name, rhs.names, rhs.population);
 }
-//overloading equal operator for count method of vector
+//- Overloading equal operator for count method of vector
 bool operator==(const Region& lhs, const Region& rhs) {
 	if ((lhs.std_name == rhs.std_name) && (lhs.parent_std_name == rhs.parent_std_name)
 			&& (lhs.names == rhs.names) && (lhs.population == rhs.population) ) {
@@ -128,5 +112,3 @@ int main() {
 	  }) << endl;
 	return 0;
 }
-
-

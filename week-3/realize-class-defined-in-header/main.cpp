@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 14, 2020
- *      Author: tlegenkamidollayev
- */
 #include "phone_number.h"
 using namespace std;
 int main() {
@@ -44,4 +38,3 @@ int main() {
 	}
 	return 0;
 }
-

@@ -1,10 +1,3 @@
-/*
- * bus_manager.h
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef BUS_MANAGER_H_
 #define BUS_MANAGER_H_
 #include <vector>

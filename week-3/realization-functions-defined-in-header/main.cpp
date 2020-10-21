@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 14, 2020
- *      Author: tlegenkamidollayev
- */
 #include "sum_reverse_sort.h"
 #include "test_runner.h"
 void TestSum() {
@@ -24,4 +18,3 @@ int main() {
 	  runner.RunTest(TestReverse, "Test reverse");
 	return 0;
 }
-

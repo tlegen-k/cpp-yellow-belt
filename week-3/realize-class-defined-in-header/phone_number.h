@@ -1,13 +1,5 @@
-/*
- * phone_number.h
- *
- *  Created on: Apr 15, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef PHONE_NUMBER_H_
 #define PHONE_NUMBER_H_
-#pragma once
 
 #include <string>
 #include <iostream>

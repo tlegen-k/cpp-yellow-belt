@@ -1,13 +1,7 @@
-/*
- * query.h
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
 
 #ifndef QUERY_H_
 #define QUERY_H_
-#pragma once
+
 #include <string>
 #include <vector>
 #include <iostream>

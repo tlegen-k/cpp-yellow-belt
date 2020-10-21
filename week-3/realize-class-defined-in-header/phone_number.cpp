@@ -1,9 +1,3 @@
-/*
- * phone_number.cpp
- *
- *  Created on: Apr 15, 2020
- *      Author: tlegenkamidollayev
- */
 #include "phone_number.h"
 #include "sstream"
 using namespace std;
@@ -61,7 +55,3 @@ using namespace std;
   string PhoneNumber::GetInternationalNumber() const {
 	  return ("+" + GetCountryCode() + "-" + GetCityCode() + "-" + GetLocalNumber());
   }
-
-
-
-

@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 3, 2020
- *      Author: tlegenkamidollayev
- */
 #include <string>
 #include <iostream>
 #include <cassert>

@@ -1,9 +1,3 @@
-/*
- * sum_reverse_sort.cpp
- *
- *  Created on: Apr 14, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iostream>
 #include <string>
 #include <vector>
@@ -30,14 +24,3 @@ void Sort(vector<int>& nums) {
 	});
 
 }
-
-
-/*
-sort(A.begin(), A.end(), [] (int i, int j) {
-	return (abs(i)<abs(j));
-});
-for(auto& i : A)
-{
-	cout << i << " ";
-}
-*/

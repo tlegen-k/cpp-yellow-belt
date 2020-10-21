@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 13, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <map>
 #include <set>
@@ -197,12 +190,3 @@ int main() {
     runner.RunTest(TestPredefinedLastNameFirst, "TestPredefinedLastNameFirst");
     return 0;
 }
-
-
-
-
-
-
-
-
-

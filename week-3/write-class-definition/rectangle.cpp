@@ -1,10 +1,3 @@
-/*
- * rectangle.cpp
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include "rectangle.h"
 Rectangle::Rectangle(int width, int height) : width_(width), height_(height)
     {
@@ -20,5 +13,3 @@ int Rectangle::GetPerimeter() const {
 
 int Rectangle::GetWidth() const { return width_; }
 int Rectangle::GetHeight() const { return height_; }
-
-

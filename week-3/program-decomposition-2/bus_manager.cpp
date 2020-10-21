@@ -1,10 +1,3 @@
-/*
- * bus_manager.cpp
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include "bus_manager.h"
 
   void BusManager::AddBus(const string& bus, const vector<string>& stops) {

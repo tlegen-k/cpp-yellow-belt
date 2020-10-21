@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 14, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iostream>
 #include <map>
 #include <set>
@@ -182,7 +176,3 @@ int main() {
   // добавьте сюда свои тесты
   return 0;
 }
-
-
-
-
