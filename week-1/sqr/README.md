@@ -1,8 +1,4 @@
-# Tasks from week 1 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Everything squared
+## Everything squared
 
 Implement a Sqr templated function that works not only for numbers but also for containers. The function should return a copy of the original container, modifying it as follows:
 

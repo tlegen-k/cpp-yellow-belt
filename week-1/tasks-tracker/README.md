@@ -1,8 +1,4 @@
-# Tasks from week 1 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Tasks tracker
+## Tasks tracker
 
 Implement TeamTasks class, that allows to store statistics on the task statuses of the development team.
 ```cpp

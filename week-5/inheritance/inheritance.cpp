@@ -1,16 +1,9 @@
-/*
- * inheritance.cpp
- *
- *  Created on: Apr 24, 2020
- *      Author: tlegenkamidollayev
- */
 #include <iostream>
 
 using namespace std;
 
 class Animal {
 public:
-    // ваш код
 	Animal(const string& name)
 	: Name(name) {
 
@@ -21,7 +14,6 @@ public:
 
 class Dog : public Animal{
 public:
-    // ваш код
 	Dog(const string& name) : Animal(name) {
 	}
     void Bark() {
@@ -34,6 +26,3 @@ int main() {
 	dog.Bark();
 	return 0;
 }
-
-
-

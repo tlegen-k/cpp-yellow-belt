@@ -1,8 +1,4 @@
-# Tasks from week 3 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 3 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Write definition of class
+## Write definition of class
 
 You are given full definition of class Rectangle
 ```cpp

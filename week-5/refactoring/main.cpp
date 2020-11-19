@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 30, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -95,6 +88,3 @@ int main() {
     VisitPlaces(s, {"Moscow", "London"});
     return 0;
 }
-
-
-

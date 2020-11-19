@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 20, 2020
- *      Author: tlegenkamidollayev
- */
 #include <vector>
 #include <algorithm>
 #include <string>

@@ -1,8 +1,4 @@
-# Tasks from week 3 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 3 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Program decomposition - 2
+## Program decomposition - 2
 
 In the task "Program decomposition" [https://www.coursera.org/learn/c-plus-plus-yellow/programming/k6Xm2/diekompozitsiia-proghrammy] we split the monolithic code into a set of functions and classes. Now we will take one more step and split our program into several files. In this task, you need to create a project consisting of the following files:
 

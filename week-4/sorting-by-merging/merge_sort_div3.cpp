@@ -11,29 +11,34 @@ void MergeSort(RandomIt range_begin, RandomIt range_end){
 	}
 		vector<typename RandomIt::value_type> elements(range_begin, range_end);
 
-		auto middle = begin(elements) + elements.size()/2;
+		auto it_left = begin(elements) + elements.size()/3;
+		auto it_right = it_left + elements.size()/3;
 
-		MergeSort(begin(elements), middle);
-		MergeSort(middle, end(elements));
+		MergeSort(begin(elements), it_left);
+		MergeSort(it_left, it_right);
+		MergeSort(it_right, end(elements));
+		vector<typename RandomIt::value_type> temp;
 
-		merge(begin(elements), middle, middle, end(elements),range_begin);
+		merge(begin(elements), it_left, it_left, it_right, back_inserter(temp));
+		merge(begin(temp), end(temp), it_right, end(elements), range_begin);
 }
 
+
 int main() {
-  vector<int> v = {6, 4, 7, 6, 4, 4, 0, 1};
+  vector<int> v = {6, 4, 7, 6, 4, 4, 0, 1, -1};
   MergeSort(begin(v), end(v));
   for (int x : v) {
     cout << x << " ";
   }
   cout << endl;
 
-  vector<int> v1 = {3, 4, 8, 5, 4, 2, 0, 1};
+  vector<int> v1 = {3, 4, 8, 5, 4, 2, 0, 1, 3};
   MergeSort(begin(v1), end(v1));
   for (int x : v1) {
     cout << x << " ";
   }
   cout << endl;
-  vector<string> v2 = { "as","ty","tt", "aa" };
+  vector<string> v2 = { "as","ty","tt", "aa", "asa", "lol"};
   	MergeSort(begin(v2), end(v2));
   	for (auto& x : v2) {
   		cout << x << " ";

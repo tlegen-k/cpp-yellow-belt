@@ -29,8 +29,6 @@ istream& operator >> (istream& is, Query& q) {
 	{
 		q.type = QueryType::AllBuses;
 	}
-/*	else {
-		cout << "Unknown query type" << endl;
-	} */
+
   return (is);
 }

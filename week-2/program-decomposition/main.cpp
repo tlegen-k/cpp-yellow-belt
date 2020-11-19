@@ -48,9 +48,6 @@ istream& operator >> (istream& is, Query& q) {
 	{
 		q.type = QueryType::AllBuses;
 	}
-/*	else {
-		cout << "Unknown query type" << endl;
-	} */
   return (is);
 }
 
@@ -155,8 +152,6 @@ private:
   map<string, vector<string>> buses_to_stops;
   map<string, vector<string>> stops_to_buses;
 };
-
-// Не меняя тела функции main, реализуйте функции и классы выше
 
 int main() {
   int query_count;

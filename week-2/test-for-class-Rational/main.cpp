@@ -101,11 +101,9 @@ public:
     }
 
     Rational(int numerator, int denominator) {
-//    	cout << numerator << " " << denominator << endl;
     	int a=abs(numerator);
     	int b=abs(denominator);
     	int gcd = 1;
-//    	cout << a << " " << b << endl;
 
     	while (a>0 && b>0)
     	{
@@ -135,26 +133,20 @@ public:
     		denom = 1;
 
     	}
-/*    	cout << "GCD " << gcd << endl;
-    	cout << "Num " << num << endl;
-    	cout << "Denom " << denom << endl; */
     }
 
     int Numerator() const
     {
-        // Реализуйте этот метод
     	return num;
     }
 
     int Denominator() const
     {
-        // Реализуйте этот метод
     	return denom;
     }
 
 
 private:
-    // Добавьте поля
     int num;
     int denom;
 };
@@ -208,7 +200,6 @@ int main() {
 	  runner.RunTest(TestPositiveFraction, "-1/-2");
 	  runner.RunTest(TestDefaultConstructor, "default constructor");
 	  runner.RunTest(TestSimplifiedFraction, "6/2");
-	  // добавьте сюда свои тесты
 
 	return 0;
 }

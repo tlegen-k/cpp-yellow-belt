@@ -1,9 +1,4 @@
-# Tasks from week 1 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-
-### Solve the “Average Temperature” problem in other restrictions on the input data.
+## Solve the “Average Temperature” problem in other restrictions on the input data.
 
 The temperature values observed for N consecutive days are given. Find the numbers of days (in numbering from scratch) with a temperature value above the arithmetic average of all N days.
 

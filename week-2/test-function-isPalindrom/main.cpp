@@ -94,9 +94,6 @@ private:
 };
 
 bool IsPalindrom(const string& str) {
-  // Вы можете вставлять сюда различные реализации функции,
-  // чтобы проверить, что ваши тесты пропускают корректный код
-  // и ловят некорректный
 	string second;
 	int size = str.size();
 	if (size == 0) {
@@ -173,6 +170,5 @@ int main() {
   runner.RunTest(TestOneSymbolString, "test one symbol string");
   runner.RunTest(TestNonPalindrom, "test non palindroms");
   runner.RunTest(TestPolindrom, "test polindroms");
-  // добавьте сюда свои тесты
   return 0;
 }

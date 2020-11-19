@@ -1,8 +1,4 @@
-# Tasks from week 2 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 2 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Tests for fucntion IsPalindrom
+## Tests for fucntion IsPalindrom
 
 In this task, you need to develop a set of unit tests for the function
 ```cpp

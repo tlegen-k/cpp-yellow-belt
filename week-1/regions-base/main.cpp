@@ -41,12 +41,8 @@ int FindMaxRepetitionCount(const vector<Region>& regions)
 		vector<int> repetitions(size_of_map);
 		for (int i = 0; i < size_of_map; ++i) {
 			Region region = regions.at(i);
-			//repetitions.at(i) = regions.count(region);
 			repetitions[i] = count(regions.begin(), regions.end(), region);
 		}
-		//cout << "The highest number of repetitions is " << max_element(repetitions.begin(), repetitions.end());
-		// realisation below will likely to fail for task requirements as *max_element will point at last
-		// element if vector is empty
 		int indicator_of_largest = *max_element(repetitions.begin(), repetitions.end());
 		return repetitions.at(indicator_of_largest);
 	}

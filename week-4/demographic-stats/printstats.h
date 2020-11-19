@@ -1,10 +1,3 @@
-/*
- * printstats.h
- *
- *  Created on: Apr 20, 2020
- *      Author: tlegenkamidollayev
- */
-
 #ifndef PRINTSTATS_H_
 #define PRINTSTATS_H_
 

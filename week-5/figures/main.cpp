@@ -1,16 +1,9 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 29, 2020
- *      Author: tlegenkamidollayev
- */
 #include <vector>
 #include <memory>
 #include <string>
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-//#include <math.h>
 #include <cmath>
 #include <sstream>
 
@@ -22,7 +15,6 @@ public:
 	virtual double Perimeter() = 0;
 	virtual double Area() = 0;
 	virtual ~Figure()=default;
-	//virtual ~Figure() {}
 private:
 
 };
@@ -42,7 +34,6 @@ public:
 		p = (a_ + b_ + c_) / 2.0;
 		return static_cast<double>(sqrt(p * (p - a_) * (p - b_) * (p - c_)));
 	}
-//	virtual ~Triangle() = default
 private:
 	string name_ = "TRIANGLE";
 	double a_; //3 sides of triangle
@@ -64,7 +55,6 @@ public:
 	virtual double Area() override {
 		return a_ * b_;
 	}
-//	virtual ~Rect() = default
 private:
 	string name_ = "RECT";
 	double a_; //sides of rectangle
@@ -85,7 +75,6 @@ public:
 	virtual double Area() override {
 		return 3.14 * pow(r_,2);
 	}
-//	virtual ~Circle() = default;
 private:
 	string name_ = "CIRCLE";
 	double r_; //raidus of circle
@@ -112,14 +101,6 @@ shared_ptr<Figure> CreateFigure(istringstream& is) {
 	}
 	return figure;
 }
-//std::string test { R"(
-//ADD RECT 2 3
-//ADD TRIANGLE 3 4 5
-//ADD RECT 10 20
-//ADD CIRCLE 5
-//PRINT
-//)" };
-//std::istringstream input(test);
 
 int main() {
   vector<shared_ptr<Figure>> figures;

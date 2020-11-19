@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 21, 2020
- *      Author: tlegenkamidollayev
- */
 #include <set>
 #include <iostream>
 

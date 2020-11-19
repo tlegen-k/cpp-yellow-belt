@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 17, 2020
- *      Author: tlegenkamidollayev
- */
 #include <vector>
 #include <set>
 #include <iostream>
@@ -19,7 +13,6 @@ vector<T> FindGreaterElements(const set<T>& elements, const T& border) {
 	});
 	vector<T> answer;
 	for (auto it = result; it != end(elements); ++it) {
-		//cout << *it << " ";
 		answer.push_back(*it);
 	}
 	return answer;

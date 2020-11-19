@@ -1,12 +1,3 @@
-/*
- * build-expression-with-brackets.cpp
- *
- *  Created on: Apr 24, 2020
- *      Author: tlegenkamidollayev
- */
-
-
-
 #include <string>
 #include <iostream>
 #include <vector>
@@ -47,5 +38,3 @@ int main() {
 	}
 return 0;
 }
-
-

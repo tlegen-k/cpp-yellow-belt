@@ -1,4 +1,3 @@
-
 #ifndef QUERY_H_
 #define QUERY_H_
 

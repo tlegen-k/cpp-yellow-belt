@@ -1,10 +1,4 @@
-# Tasks from week 1 of course
-
-## C++ Yellow belt
-
-This repository contains my solutions to tasks from week 1 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-
-### Mass of blocks
+## Mass of blocks
 
 Calculate the total mass of cuboid-shaped blocks of the same density but different sizes.
 Indication

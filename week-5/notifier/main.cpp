@@ -1,13 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 29, 2020
- *      Author: tlegenkamidollayev
- */
-
-
-
-
 #include <iostream>
 #include <string>
 

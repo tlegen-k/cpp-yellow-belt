@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 21, 2020
- *      Author: tlegenkamidollayev
- */
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -16,24 +10,6 @@ template <typename RandomIt>
 pair<RandomIt, RandomIt> FindStartsWith(
     RandomIt range_begin, RandomIt range_end,
     char prefix) {
-	// go through each element to find that starts with prefix.
-	// Binary search algorithm
-//	RandomIt left = range_begin;
-//	RandomIt right = range_end;
-	//RandomIt  middle;// middle of range
-	/* while (left <= right) {
-		auto middle = (right - left)/2;
-		auto element = *middle;
-		if ( element[0] < prefix) {
-			left = middle + 1;
-		}
-		else if (element[0] > prefix) {
-			right = middle - 1;
-		}
-		else {
-			return element[0];
-		}
-	} */
 	string word = {prefix};
 	auto lower = lower_bound(range_begin, range_end, word);
 
@@ -44,7 +20,7 @@ pair<RandomIt, RandomIt> FindStartsWith(
 	return (make_pair(lower, upper));
 }
 
-/*
+
 int main() {
   const vector<string> sorted_strings = {"moscow", "murmansk", "vologda"};
 
@@ -67,4 +43,3 @@ int main() {
 
   return 0;
 }
-*/

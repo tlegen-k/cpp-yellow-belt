@@ -1,9 +1,3 @@
-/*
- * build-expression.cpp
- *
- *  Created on: Apr 23, 2020
- *      Author: tlegenkamidollayev
- */
 #include <string>
 #include <iostream>
 #include <vector>
@@ -13,11 +7,6 @@ struct Operation {
 	char action;
 	int	number;
 };
-/*
-enum class Priority{
-	low, // +, - have low priority and should have brackets
-	high // *, / have high priority and don't need brackets
-}; */
 
 bool RequireBrackets(char previous, char current) {
 	if ( (previous == '-' || previous == '+') && (current == '*' || current == '/') ) {
@@ -27,7 +16,7 @@ bool RequireBrackets(char previous, char current) {
 		return false;
 	}
 }
-/*
+
 int main() {
 	int x; //initial number
 	int n; //number of operations
@@ -61,5 +50,3 @@ int main() {
 	}
 return 0;
 }
-
-*/

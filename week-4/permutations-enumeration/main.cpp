@@ -1,10 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 20, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -27,4 +20,3 @@ int main() {
 	}
 	return 0;
 }
-

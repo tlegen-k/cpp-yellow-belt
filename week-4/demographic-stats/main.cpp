@@ -1,9 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 20, 2020
- *      Author: tlegenkamidollayev
- */
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -17,9 +11,9 @@ enum class Gender {
 };
 
 struct Person {
-  int age;  // возраст
-  Gender gender;  // пол
-  bool is_employed;  // имеет ли работу
+  int age;
+  Gender gender;
+  bool is_employed;
 };
 
 template <typename InputIt>

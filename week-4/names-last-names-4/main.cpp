@@ -1,18 +1,3 @@
-/*
- * main.cpp
- *
- *  Created on: Apr 21, 2020
- *      Author: tlegenkamidollayev
- */
-
-
-/*
- * main.cpp
- *
- *  Created on: Apr 13, 2020
- *      Author: tlegenkamidollayev
- */
-
 #include <iostream>
 #include <map>
 #include <set>
@@ -186,18 +171,7 @@ void TestPredefined() {
 
 int main() {
     TestRunner runner;
-   // runner.RunTest(TestPredefined, "TestPredefined");
-    // runner.RunTest(TestPredefinedLastNameFirst, "TestPredefinedLastNameFirst");
+    runner.RunTest(TestPredefined, "TestPredefined");
+    runner.RunTest(TestPredefinedLastNameFirst, "TestPredefinedLastNameFirst");
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-

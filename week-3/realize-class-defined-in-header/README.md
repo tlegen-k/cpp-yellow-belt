@@ -1,8 +1,4 @@
-# Tasks from week 3 of course
-
-## C++ Yellow belt
-This repository contains my solutions to tasks from week 3 of [C++ course](https://www.coursera.org/learn/c-plus-plus-yellow/home/welcome)
-### Realize class defined in header file
+## Realize class defined in header file
 
 You are given the template_phone_number.h header file containing the declaration of the PhoneNumber class. At the same time, the comments describe the behavior that is expected from the implementation of this class[template_phone_number.h](./template_phone_number.h).
 
